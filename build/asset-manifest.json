@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vertaal-app/static/css/main.891958df.css",
+    "main.js": "/vertaal-app/static/js/main.9656d8d2.js",
+    "index.html": "/vertaal-app/index.html",
+    "main.891958df.css.map": "/vertaal-app/static/css/main.891958df.css.map",
+    "main.9656d8d2.js.map": "/vertaal-app/static/js/main.9656d8d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.891958df.css",
+    "static/js/main.9656d8d2.js"
+  ]
+}
