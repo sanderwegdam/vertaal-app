@@ -1,0 +1,117 @@
+:root {
+    --gray: #555;
+    --darkgray: #999;
+}
+
+.mainBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    margin: 30px auto;
+    gap: 100px;
+    padding: 20px;
+}
+
+.box {
+    min-height: 180px;
+    margin-top: 30px;
+}
+
+#output {
+    margin: 0%;
+}
+
+.outputResult {
+    border: 1px solid var(--darkgray);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 22px;
+    color: darkgray;
+    font-weight: 300;
+    background: white;
+}
+
+textarea {
+    width: 80%;
+    min-height: 180px;
+    resize: none;
+}
+
+.navbar {
+    background-color: hsl(180, 2%, 90%);
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.iconBox {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    color: #777;
+    padding: 10px;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+
+.icon:hover {
+    background-color: black;
+    color: white;
+}
+
+select {
+    font-size: 16px;
+    flex: 1;
+    padding: 0 1em;
+    background-color: white;
+    cursor: pointer;display: flex;
+    width: 90%;
+    height: 2.5em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+select:hover {
+    background-color: hsl(180, 2%, 90%);;
+}
+
+@media screen and (max-width: 800px) {
+    .mainBox {
+        gap: 30px;
+    }
+
+    .box {
+        min-height: 180px;
+    }
+
+    textarea {
+        min-height: 180px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainBox {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 60px;
+    }
+    .box {
+        min-height: 150px;
+        margin-top: 20px;
+    }
+    textarea {
+        min-height: 150px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .navbar> h1{
+        font-size: 16px;
+      }
+}
