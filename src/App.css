@@ -115,6 +115,7 @@ select.round {
 @media screen and (max-width: 1600px) {
   .mainBox {
     gap: 30px;
+    transform: translate(0%);
   }
   .box {
     min-height: 180px;
@@ -132,7 +133,7 @@ select.round {
   .mainBox {
     grid-template-columns: repeat(1, 1fr);
     display: grid;
-    transform: translate(20%);
+    transform: translate(10%);
   }
   .box {
     min-height: 150px;
@@ -148,12 +149,12 @@ select.round {
 
 @media screen and (max-width: 450px) {
   .mainBox {
-    transform: translate(10%);
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
     display: grid;
     justify-content: center;
     align-items: center;
+    transform: translate(0%);
   }
   .navbar > h1 {
     font-size: 16px;
@@ -167,8 +168,8 @@ select.round {
   .mainBox {
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
-    transform: translate(10%);
     display: grid;
+    transform: translate(0%);
   }
 
   .navbar > h1 {
