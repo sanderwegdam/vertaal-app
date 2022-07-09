@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vertaal-app/static/css/main.d19069bc.css",
+    "main.css": "/vertaal-app/static/css/main.fbd4b89a.css",
     "main.js": "/vertaal-app/static/js/main.9656d8d2.js",
     "index.html": "/vertaal-app/index.html",
-    "main.d19069bc.css.map": "/vertaal-app/static/css/main.d19069bc.css.map",
+    "main.fbd4b89a.css.map": "/vertaal-app/static/css/main.fbd4b89a.css.map",
     "main.9656d8d2.js.map": "/vertaal-app/static/js/main.9656d8d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d19069bc.css",
+    "static/css/main.fbd4b89a.css",
     "static/js/main.9656d8d2.js"
   ]
 }
