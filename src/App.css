@@ -140,6 +140,13 @@ select.round {
   .outputResult {
     width: 100%;
   }
+  .navbar {
+    min-width: 120vw;
+  }
+  .navbar > h1 {
+    font-size: 16px;
+    transform: translate(-100%);
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -154,6 +161,15 @@ select.round {
   .outputResult {
     width: 240px;
   }
+  .navbar {
+    min-width: 120vw;
+    display: grid;
+    justify-content: center;
+  }
+  .navbar > h1 {
+    font-size: 16px;
+    transform: translate(-100%);
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -165,6 +181,10 @@ select.round {
   }
   .navbar > h1 {
     font-size: 16px;
+    transform: translate(0%);
+  }
+  .navbar {
+    min-width: 120vw;
   }
   .select {
     width: 100%;
