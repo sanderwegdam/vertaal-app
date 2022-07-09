@@ -76,7 +76,6 @@ export const TranslateBox = () => {
                         <MdClear onClick={resetText} className="icon" />
                     </div>
                 </div>
-
                 <div>
                     <SelectBox id={'target'} select={handleSelectChange} />
                     <div className="outputResult box">
